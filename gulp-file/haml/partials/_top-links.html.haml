@@ -1,0 +1,14 @@
+%section#login-form
+  #login-content.login-content{"data-snippet" => "login_form"}
+    %iframe#login-frame{:height => "0", :name => "login-frame", :src => "#", :width => "0"}
+    #login-content-inner
+    %br.clear/
+  .login-title
+    %a.login-close{:href => "#"}  
+    %h1 Welcome to Oxford Owl
+/ main section end
+/ Modals
+#top-links-div.hide
+  %span.signed-out.top-links-inner
+    %a.login-link.login{:href => "#", :title => "Login"} Log in
+    %a.open-in-lightbox-iframe.register{"data-height" => "563", "data-width" => "850", :href => "/user/sign_up.html", :title => "Register"} Join us

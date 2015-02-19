@@ -1,0 +1,27 @@
+#gel-news-carousel{"data-snippet" => "gel_news_carousel"}
+  #carousel.carousel.slide{"data-interval" => "false"}
+    / Carousel items
+    .carousel-inner
+      .item.active
+        %section
+          .row-fluid
+            = Haml::Engine.new(File.read('haml/partials/_promo-1.html.haml')).render
+            = Haml::Engine.new(File.read('haml/partials/_promo-2.html.haml')).render
+          .row-fluid
+            = Haml::Engine.new(File.read('haml/partials/_promo-3.html.haml')).render
+            = Haml::Engine.new(File.read('haml/partials/_promo-4.html.haml')).render
+      .item
+        %section
+          .row-fluid
+            = Haml::Engine.new(File.read('haml/partials/_promo-5.html.haml')).render
+            = Haml::Engine.new(File.read('haml/partials/_promo-6.html.haml')).render
+          .row-fluid
+            = Haml::Engine.new(File.read('haml/partials/_promo-7.html.haml')).render
+            = Haml::Engine.new(File.read('haml/partials/_promo-8.html.haml')).render
+    / Carousel nav
+    .news-nav
+      %a.left-button{"data-slide" => "prev", :href => "#carousel"}
+      %a.right-button{"data-slide" => "next", :href => "#carousel"}
+      %ol.carousel-bubbles.carousel-indicators
+        %li.active{"data-slide-to" => "0", "data-target" => "#carousel"}
+        %li{"data-slide-to" => "1", "data-target" => "#carousel"}

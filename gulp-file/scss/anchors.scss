@@ -1,0 +1,22 @@
+a{
+	color: $pink;
+	
+}
+
+a:hover{
+	
+}
+
+p{
+	a{
+		border-bottom: 1px solid #dadada;
+	}
+	a:hover{
+		border-bottom: 1px solid $pink;
+	}
+}
+
+ 
+
+
+

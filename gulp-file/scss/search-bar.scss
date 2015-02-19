@@ -1,0 +1,85 @@
+//search bar
+
+body.page_liam #search {
+  background: none repeat scroll 0 0 transparent;
+  border-radius: 0;
+  height: 37px;
+  left: auto;
+  padding-left: 39px;
+  position: absolute;
+  top: 64px;
+  width: 356px;
+  input.search {
+    background: url("http://d3g8ukm9kroesz.cloudfront.net/2015/01/06/15/09/41/900/oxford_owl_sprite.svg") no-repeat scroll -46px -93px white;
+    border: 2px solid #575756;
+    border-radius: 20px;
+    left: 362px;
+    padding-left: 26px;
+    top: -5px;
+    width: 146px;
+    height: 27px;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+ .search-book .label,
+ .search-website .label {
+    top: auto;
+    padding: 0px;
+    font-size: 15px;
+    background: url("http://d3g8ukm9kroesz.cloudfront.net/2015/01/06/15/09/41/900/oxford_owl_sprite.svg") no-repeat scroll 0 -72px transparent;
+    height: 24px;
+    margin-right: 24px;
+    padding: 0 0 0 24px;
+    left: auto;
+    position: relative;
+    float: left;
+    line-height: 1.5;
+  }
+}
+
+body.page_liam #search .label.active {
+  background: url("http://d3g8ukm9kroesz.cloudfront.net/2015/01/06/15/09/41/900/oxford_owl_sprite.svg") no-repeat scroll 0 -48px transparent;
+  height: 24px;
+  margin-right: 24px;
+  padding: 0 0 0 24px;
+  position: relative;
+  float: left;
+}
+
+body.page_liam #search #submit-website-search, 
+body.page_liam #search #submit-book-search {
+  background: url("http://d3g8ukm9kroesz.cloudfront.net/2015/01/06/15/09/41/900/oxford_owl_sprite.svg") no-repeat scroll 89px -116px #575756;
+  border: 0 none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  height: 33px;
+  left: 552px;
+  position: absolute;
+  text-indent: -16px;
+  top: -5px;
+  width: 120px;
+  font-size: 17px;
+  transition: background 0.3s ease 0s;
+}
+
+body.page_liam #search #submit-website-search:hover,
+body.page_liam #search #submit-book-search:hover
+{
+  background: url("http://d3g8ukm9kroesz.cloudfront.net/2015/01/06/15/09/41/900/oxford_owl_sprite.svg") no-repeat scroll 89px -116px #000;
+}
+
+body.page_liam #search .label.active + form {
+    display: inline;
+}
+
+li.current-menu-item a:after {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #cf1c6d;
+  content: "";
+  left: 50%;
+  margin-left: -10px;
+  bottom: -10px;
+  position: absolute;
+}

@@ -1,0 +1,105 @@
+body.page_liam #main{
+  background-image: none;
+  box-shadow: none;
+}
+
+body.page_liam #header {
+    height: 130px !important;
+}
+
+body.page_liam #search-bar{
+  height: 55px;
+  background-color: #cfd725;
+}
+
+body.page_liam .dropdown-menu {
+    background-clip: padding-box;
+    background-color: #fff;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    display: block;
+    float: left;
+    left: 0;
+    list-style: outside none none;
+    margin: 0px;
+    min-width: auto;
+    padding: 0;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+}
+
+body.page_liam ul.dropdown-menu li.menu-item a{
+  padding: 14px;
+  display: block;
+}
+
+body.page_liam ul.dropdown-menu .current-menu-item a{
+  background-color: #cf1c6d; /*pinkcolor*/
+  color: white;
+}
+
+body.page_liam ul.dropdown-menu .current-menu-item a{
+  color: white;
+}
+
+body.page_liam ul.dropdown-menu li.menu-item a:hover{
+  color: white;
+  background-color: #cf1c6d; /*pinkcolor*/
+}
+
+body.page_liam ul.dropdown-menu .current-menu-item a:focus{
+  background-color: #cf1c6d; /*pinkcolor*/
+  color: white;
+}
+
+body.page_liam ul.dropdown-menu .current-menu-item a:active{
+  background-color: #cf1c6d; /*pinkcolor*/
+  color: white;
+}
+
+body.page_liam .menu-item.kids-barn {
+    font-family: "kremlin-pro-web-semi-exp";
+}
+
+body.page_liam ul.dropdown-menu{
+  background-color: transparent;
+}
+
+section.content{
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+.article-content{
+  padding: 0 20px;
+}
+
+.breadcrumb {
+  background-color: white;
+  border-radius: 4px;
+  list-style: outside none none;
+  margin: 0 20px;
+  padding: 8px 15px;
+}
+
+.content-intro {
+  background-color: #EFEFF0;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.content-main {
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 50px;
+  border: 1px solid #dadada;
+}
+
+section.content{
+  height: 800px;
+}

@@ -1,0 +1,25 @@
+body.for-home-page ol.carousel-bubbles li{
+
+}
+
+body.for-home-page .carousel-bubbles li {
+    background-color: rgba(86, 86, 85, 0.38);
+    margin-left: 14px;
+    background-image: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+body.for-home-page .carousel-bubbles li:first-child{
+  margin-left: 0;
+}
+
+body.for-home-page .carousel-bubbles li.active {
+    background-color: rgba(86, 86, 85, 0.73);
+}
+
+body.for-home-page .carousel-bubbles li:hover {
+    background-color: #373737;
+}

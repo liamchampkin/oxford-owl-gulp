@@ -1,0 +1,44 @@
+.row-fluid
+  .span12.home-carousel-container
+    .row-fluid
+      .span8
+        %h2
+          Escape the cold this half-term!
+        %p Whether your child is a pre-schooler looking for a new favourite picture book or an independent reader looking for a challenge, we’ve got some great reads for this half-term.
+    #gel-carousel{"data-snippet" => "gel_carousel"}
+      %section.outer-carousel
+        %span.carousel-header Reccomended eBooks not signed in
+        #carousel2.carousel.slide{"data-interval" => "false"}
+          / Carousel items
+          .carousel-inner
+            .item.active
+              %ul.bookshelf
+                %li.ajaxpopover.pos-0{"data-original-title" => "A Monster Mistake", "data-url" => "/popover/1090", :style => "background-image: url('http://d28829rr6ckllj.cloudfront.net/2013/08/16/11/56/12/844/2268_content/img/books/A Monster Mistake.jpg');", :title => ""}
+                  .is-ebook.ajaxpopover.pos-0-e{"data-url" => "/popover/1090"}  
+                %li.ajaxpopover.pos-1{"data-url" => "/popover/1091", :style => "background-image: url('http://d3g8ukm9kroesz.cloudfront.net/2014/07/21/16/36/01/162/Dragon_Training.jpg');", :title => "Dragon Training"}
+                  .is-ebook.ajaxpopover.pos-1-e{"data-url" => "/popover/1091"}  
+                %li.ajaxpopover.pos-3{"data-url" => "/popover/1092", :style => "background-image: url('http://d3g8ukm9kroesz.cloudfront.net/2014/07/21/16/36/03/820/Tales_of_the_Underworld.jpg');", :title => "Tales of the Underworld"}
+                  .is-ebook.ajaxpopover.pos-3-e{"data-url" => "/popover/1092"}  
+                %li.take-me-to-ebooks
+                  %a{:href => "/for-home/reading-owl/find-a-book/library-page"}
+                    %img.ebooks-green{:alt => "eBooks", :src => "http://d3g8ukm9kroesz.cloudfront.net/2015/01/07/10/11/46/780/ebook_e_green.svg"}/
+                  %span Take me to eBooks
+            .item
+              %ul.bookshelf
+                %li.ajaxpopover.pos-0{"data-url" => "/popover/1110", :style => "background-image: url('http://d3g8ukm9kroesz.cloudfront.net/2014/07/21/16/36/09/982/Air_Raid.jpg');", :title => "Air Raid"}
+                  .is-ebook.ajaxpopover.pos-0-e{"data-url" => "/popover/1110"}  
+                %li.ajaxpopover.pos-1{"data-url" => "/popover/1115", :style => "background-image: url('http://d3g8ukm9kroesz.cloudfront.net/2014/07/21/16/36/11/481/9780199195305.jpg');", :title => "Alex Brychta"}
+                  .is-ebook.ajaxpopover.pos-1-e{"data-url" => "/popover/1115"}  
+                %li.ajaxpopover.pos-3{"data-url" => "/popover/1117", :style => "background-image: url('http://d28829rr6ckllj.cloudfront.net/2013/08/16/11/56/12/844/2268_content/img/books/Alien Invasion.jpg');", :title => "Alien Invasion!"}
+                  .is-ebook.ajaxpopover.pos-3-e{"data-url" => "/popover/1117"}  
+                %li.ajaxpopover.pos-3{"data-url" => "/popover/1141", :style => "background-image: url('http://d3g8ukm9kroesz.cloudfront.net/2014/07/21/16/36/13/143/Animal_Tricksters.jpg');", :title => "Animal Tricksters"}
+                  .is-ebook.ajaxpopover.pos-3-e{"data-url" => "/popover/1141"}  
+          / Carousel nav
+          %a.left-button-container{"data-slide" => "prev", :href => "#carousel2"}
+          %a.left-button{"data-slide" => "prev", :href => "#carousel2"}
+          %a.right-button-container{"data-slide" => "next", :href => "#carousel2"}
+          %a.right-button{"data-slide" => "next", :href => "#carousel2"}
+          %ol.carousel-bubbles.carousel-indicators
+            %li.active{"data-slide-to" => "0", "data-target" => "#carousel2"}
+            %li{"data-slide-to" => "1", "data-target" => "#carousel2"}
+      / outer carousel section end

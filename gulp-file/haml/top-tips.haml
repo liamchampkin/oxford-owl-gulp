@@ -1,0 +1,31 @@
+!!!
+%html
+  = Haml::Engine.new(File.read('haml/partials/_head.html.haml')).render
+  %body.page_liam
+  %section#main{"data-snippet" => "home"}
+    = Haml::Engine.new(File.read('haml/partials/_header-bar.html.haml')).render
+    %section#header
+      %section#header 
+        #search-bar  
+          %section#search
+            = Haml::Engine.new(File.read('haml/partials/_search-bar.html.haml')).render
+        #nav-bar
+          = Haml::Engine.new(File.read('haml/partials/_menu.html.haml')).render
+          .maths-button 
+            %a.btn.btn-maths.pull-right{:href => "/for-home/maths-owl/maths", :type => "button"} Go to Maths
+    .breadcrumb
+      %a{:href => ""}
+        Home 
+      > Top tips 
+    %section.content
+      .row-fluid
+        .span9.article-content
+          = Haml::Engine.new(File.read('haml/partials/_content-top-tips.html.haml')).render 
+        .span3 
+          = Haml::Engine.new(File.read('haml/partials/_sidebar-top-tips.html.haml')).render 
+    / content section end
+
+ 
+    = Haml::Engine.new(File.read('haml/partials/_footer.html.haml')).render
+
+    = Haml::Engine.new(File.read('haml/partials/_top-links.html.haml')).render

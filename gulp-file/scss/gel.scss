@@ -1,0 +1,24 @@
+.gel-button-conainer{
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container-grey-lighter{
+  background-color: $grey-lighter;
+}
+
+
+.btn-gel-pink {
+  background: none repeat scroll 0 0 $pink;
+  border: 2px solid #fff;
+  border-radius: 17px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 1.5;
+  overflow: hidden;
+  padding: 0 40px 0 13px;
+  transition: background 0.3s ease 0s;
+  display: table;
+  margin-bottom: 15px;
+}

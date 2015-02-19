@@ -1,0 +1,160 @@
+#gel-news-carousel .carousel .right-button, 
+#gel-news-carousel .carousel .left-button {
+    bottom: -39px;
+    position: absolute;
+    top: auto;
+}
+
+.right-button:after,
+.left-button:before{
+  color: #fff;
+  content: "";
+  height: 24px;
+  left: 6px;
+  position: absolute;
+  top: 1px;
+  width: 24px;
+}
+
+.right-button:after {
+  background: url("http://d3g8ukm9kroesz.cloudfront.net/2015/01/06/15/09/41/900/oxford_owl_sprite.svg") no-repeat scroll 0 -116px rgba(0, 0, 0, 0);
+
+}
+
+.left-button:before{
+  background: url("http://d3g8ukm9kroesz.cloudfront.net/2015/01/06/15/09/41/900/oxford_owl_sprite.svg") no-repeat scroll -24px -116px rgba(0, 0, 0, 0);
+}
+
+.left-button:focus,
+.right-button:focus{
+  text-decoration: none;
+}
+
+
+#gel-news-carousel .carousel-indicators {
+    left: 46.3%;
+    position: absolute;
+    top: auto;
+    z-index: 0;
+    right: auto;
+}
+
+#gel-carousel .carousel-indicators{
+  left: 47.1%;
+}
+
+
+
+.carousel .right-button,
+.carousel .left-button{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #cf1c6d; /*pinkcolor*/
+  display: block;
+  position: absolute;
+  border: 2px solid white;
+  background-image: none;
+}
+
+.left-button-container,
+.right-button-container{
+  background-color: #575756; /*greycolor*/
+  height: 175px;
+  position: absolute;
+  top: 0;
+  width: 50px;
+  border-radius: 5px;
+}
+
+a.left-button-container:hover,
+a.right-button-container:hover{
+  background-color: #3d3d3d;
+}
+
+.right-button-container{
+  right: 0;
+}
+
+#gel-news-carousel .right-button,
+#gel-news-carousel .left-button{
+  right: -14px;
+  top: 74px;
+}
+
+#gel-carousel .right-button{
+  right: 5px;
+  top: 71px;
+}
+#gel-carousel .left-button{
+  right: 0px;
+  left: 6px !important;
+  top: 71px;
+}
+
+#gel-carousel .left-button{
+
+}
+.carousel .right-button:hover,
+.carousel .left-button:hover{
+  background-color: #bf166a;
+}
+
+.home-carousel-container {
+    padding: 15px 40px 20px;
+}
+
+#gel-carousel ul.bookshelf{
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  margin: 0 auto !important;
+  width: 766px !important;
+}
+
+#gel-carousel .outer-carousel{
+  height: 247px;
+  width: 100%;
+}
+
+.carousel-ebook-heading{
+  max-width: 661px;
+}
+
+#gel-carousel ul.bookshelf li{
+  margin: 0 0 0 22px;
+  background-color: #EFEFEF;
+  padding: 20px;
+  border-radius: 10px;
+  background-position: 50% 20px;
+}
+
+#gel-carousel ul.bookshelf li:first-child{
+  margin: 0px;
+}
+
+#gel-carousel .popover {
+    height: 111px;
+    top: 0 !important;
+}
+
+#gel-carousel .carousel .item a{
+  width: 203px;
+  border: none;
+  margin: 0px;
+  width: 100%;
+  float: none;
+}
+
+#gel-news-carousel section.outer-carousel,
+#gel-news-carousel .carousel{
+  width: 100% !important;
+  height: 550px;
+}
+
+#gel-news-carousel .carousel .item{
+  width: 100% !important;
+  height: 550px;
+}
+
+#gel-news-carousel .carousel .carousel-inner{
+  height: 550px;
+}

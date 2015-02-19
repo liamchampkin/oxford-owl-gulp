@@ -1,0 +1,13 @@
+.search-website{"data-snippet" => "book_search"}
+  %a.label.active{:href => "#"} Search this website
+  %form{:action => "/search-results"}
+    %input{:name => "type", :style => "display: none;", :value => "website"}/
+    %input.search{:name => "query", :placeholder => "Enter keyword...", :value => ""}/
+    %input#submit-website-search{:type => "submit", :value => "Search"}/
+.search-book
+  %a.label{:href => "#"} Quick book search
+  %form{:action => "/home/reading-site/find-a-book/library-page"}
+    %input{:name => "type", :style => "display: none;", :value => "book"}/
+    %input{:name => "view", :style => "display: none;", :value => "{{{param_view}}}"}/
+    %input.search{:name => "query", :placeholder => "Enter keyword...", :value => "{{{param_query}}}"}/
+    %input#submit-book-search{:type => "submit", :value => "Search"}/
