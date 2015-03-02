@@ -28,14 +28,21 @@ p{
 	line-height: 1.5;
 }
 
-
-
-a{
-
+.kids-barn {
+    font-family: $handwriting-font;
 }
 
-a:hover{
-
+.breadcrumb {
+  background-color: white;
+  margin: 0 25px;
+  padding: 8px 15px;
+  ul{
+    margin: 0;
+    padding: 0;
+    li{
+      display: inline;
+    }
+  }
 }
 
  

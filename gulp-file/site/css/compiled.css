@@ -7138,370 +7138,6 @@ body.maths-site #main {
 body.maths-owl #main {
   background: white url(../img/backgrounds/maths_header.gif) no-repeat; }
 
-/*liams css*/
-/*setting up fonts*/
-body.home_liam,
-body.page_liam {
-  color: #575756; }
-
-.btn-gel,
-.lola,
-.box,
-.carousel-ebook-heading {
-  font-family: fs-lola-primary-web, sans-serif !important; }
-
-p {
-  line-height: 1.5; }
-
-.pink {
-  color: #cf1c6d; }
-
-.green {
-  color: #B1BB15; }
-
-.blue {
-  color: #4ECADA; }
-
-.orange {
-  color: #F29100; }
-
-body.for-home-page.home_liam,
-body.page_liam {
-  background-image: url(http://d3g8ukm9kroesz.cloudfront.net/2014/11/28/14/16/07/939/Clouds.png);
-  background-position: 0px 0px;
-  background-color: #8bd7fc;
-  animation: animatedBackground 160s linear infinite; }
-
-body.for-home-page.home_liam section#main {
-  width: auto;
-  width: 1024px;
-  box-shadow: none; }
-
-body.for-home-page.home_liam #main {
-  background: none repeat scroll 0 0 white;
-  /*overides background image logo*/ }
-
-body.for-home-page.home_liam section#top-links,
-body.page_liam section#top-links {
-  padding: 0px;
-  min-height: 48px !important;
-  background-color: transparent;
-  border-radius: 0px;
-  float: right;
-  position: relative;
-  width: 260px; }
-
-body.for-home-page.home_liam #top-links a.register,
-body.page_liam #top-links a.register,
-body.for-home-page.home_liam #top-links a.login,
-body.page_liam #top-links a.login,
-body.page_liam #top-links a,
-body.for-home-page.home_liam #top-links a {
-  display: block;
-  background-color: transparent;
-  color: white;
-  border: none;
-  border-radius: 0;
-  float: right;
-  margin: 0;
-  font-weight: normal;
-  padding: 14px 20px;
-  position: relative;
-  top: -14px;
-  /*bit of a hack as I don't have access to the front end code*/
-  font-size: 15px; }
-
-body.for-home-page.home_liam #top-links a.register:hover,
-body.page_liam #top-links a.register:hover,
-body.for-home-page.home_liam #top-links a.login:hover,
-body.page_liam #top-links a.login:hover,
-body.page_liam #top-links a:hover,
-body.for-home-page.home_liam #top-links a:hover {
-  background-color: #cf1c6d;
-  /*pinkcolor*/ }
-
-section#top-links span {
-  top: 14px;
-  /*bit of a hack as I don't have access to the front end code*/
-  position: relative; }
-
-section#top-links span span {
-  top: 0;
-  position: relative;
-  margin-right: 10px; }
-
-body.page_liam #content {
-  padding: 0 30px; }
-
-body.for-home-page.home_liam section#login-form .login-title {
-  background-color: #575756;
-  /*greycolor*/ }
-
-body.for-home-page.home_liam .top-links-inner,
-body.page_liam .top-links-inner {
-  float: right;
-  margin: 0;
-  position: relative; }
-
-.logo {
-  padding: 10px 40px;
-  position: relative;
-  width: 200px;
-  float: left; }
-
-body.for-home-page.home_liam section#create-your-class-login {
-  position: relative;
-  width: 197px;
-  display: inline;
-  float: right;
-  margin: 8px 0 0 0; }
-
-body.home_liam .side-bar {
-  margin-left: 17px;
-  width: 194px; }
-
-body.page_liam section#create-your-class-login {
-  position: relative;
-  width: 197px;
-  display: inline;
-  float: left;
-  margin: 8px 0 0 0;
-  right: auto;
-  top: 0;
-  left: 366px; }
-
-#top-links a:hover {
-  background-color: #cf1c6d;
-  color: white; }
-
-.mission-owl {
-  height: 245px;
-  left: 78px;
-  position: absolute;
-  top: 64px;
-  width: 235px;
-  z-index: 9999; }
-
-.mission-owl > img {
-  width: 120%; }
-
-.header-bar {
-  background-color: #64686C;
-  height: 48px; }
-
-body.for-home-page.home_liam .top-links-inner {
-  margin: 0;
-  /*overides margin top*/ }
-
-.signed-in.top-links-inner > br {
-  display: none; }
-
-body.for-home-page section#content {
-  padding: 0 0 50px 0; }
-
-.center-content {
-  background-color: #cfd725;
-  height: 579px;
-  padding: 80px 40px; }
-
-section#content {
-  padding-bottom: 0px !important; }
-
-.box {
-  background-color: white;
-  color: #575756;
-  /*greycolor*/ }
-
-.box:hover {
-  background-color: #cf1c6d;
-  /*pinkcolor*/
-  color: white; }
-
-.box:hover .pink,
-.box:hover .blue,
-.box:hover .green,
-.box:hover .orange {
-  color: white; }
-
-.span6.box {
-  height: 250px;
-  margin-bottom: 20px;
-  overflow: hidden;
-  padding: 0px;
-  width: 46.936%;
-  margin-right: 3%;
-  z-index: 1;
-  position: relative; }
-
-.box .box-image {
-  overflow: hidden; }
-
-.box .box-image > img {
-  position: relative; }
-
-.span6.box img {
-  max-width: none; }
-
-.box .text {
-  padding: 15px; }
-
-.box h2 {
-  font-size: 1.4em;
-  line-height: 1.2; }
-
-.box p {
-  font-size: 1.1em;
-  line-height: 1.3; }
-
-.news-nav {
-  position: relative;
-  width: 96%; }
-
-body.home_liam section#create-your-class-login {
-  border-radius: 10px;
-  margin-top: 12px;
-  position: relative;
-  right: 0px;
-  top: 0px; }
-
-.button-container {
-  float: right;
-  width: 100%;
-  margin-bottom: 10px; }
-
-.btn-gel {
-  color: white;
-  border-radius: 30px;
-  box-shadow: 0 0 0;
-  border: 3px solid;
-  background: transparent;
-  background-color: #575756;
-  /*greycolor*/
-  text-shadow: none;
-  font-size: 1.3em;
-  padding: 10px;
-  font-weight: normal;
-  width: 90%; }
-
-.btn-gel:hover {
-  background-color: #cf1c6d;
-  color: white; }
-
-.mission-text {
-  max-width: 426px;
-  position: relative;
-  margin-top: 51px; }
-
-.mission-text p {
-  font-size: 1.5em;
-  line-height: 1.5;
-  color: #575756;
-  /*greycolor*/ }
-
-body.home_liam #footer {
-  height: auto; }
-
-#warning {
-  background: none repeat scroll 0 0 white;
-  padding: 10px;
-  position: fixed;
-  top: 50%;
-  transform: rotate(90deg); }
-
-/*page css*/
-.dropdown-menu > li {
-  float: left;
-  position: relative; }
-
-.dropdown-menu > li > a {
-  display: inline;
-  padding: 0px; }
-
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
-  background-color: #cf1c6d;
-  /*pinkcolor*/
-  color: white;
-  background-image: none; }
-
-.dropdown-menu > li:first-child {
-  margin-left: 28px; }
-
-/*SVG icons*/
-.test {
-  background: url("http://d3g8ukm9kroesz.cloudfront.net/2014/12/09/18/02/49/26/oxford_owl_sprite.svg");
-  height: 24px;
-  width: 24px;
-  display: inline-block; }
-
-.checkbox {
-  background-position: -0px -0px; }
-
-.maths-button {
-  position: absolute;
-  right: 0;
-  z-index: 2; }
-
-.btn.btn-maths.pull-right {
-  background: none repeat scroll 0 0 #ccc;
-  border: medium none;
-  border-radius: 0;
-  box-shadow: none;
-  right: 0;
-  text-shadow: none;
-  width: 188px;
-  padding: 14px; }
-
-.btn.btn-maths.pull-right:after {
-  background: url("http://d3g8ukm9kroesz.cloudfront.net/2015/01/06/15/09/41/900/oxford_owl_sprite.svg") no-repeat scroll 0 -145px transparent;
-  content: "";
-  height: 24px;
-  position: absolute;
-  width: 24px; }
-
-.btn.btn-maths.pull-right:hover {
-  background: none repeat scroll 0 0 #cf1c6d;
-  color: white; }
-
-.btn.btn-maths.pull-right:hover:after {
-  background: url("http://d3g8ukm9kroesz.cloudfront.net/2015/01/06/15/09/41/900/oxford_owl_sprite.svg") no-repeat scroll 0 -121px transparent; }
-
-#css-editor {
-  z-index: 999999; }
-
-/*little birdies*/
-img.small-bird,
-img.orange-bird {
-  position: absolute; }
-
-.small-bird {
-  left: 303px;
-  top: 67px; }
-
-.orange-bird {
-  right: 31px;
-  top: 106px; }
-
-.bird-chopper {
-  width: 108px;
-  position: absolute;
-  top: 522px;
-  right: 0px;
-  overflow: hidden; }
-
-.bird-chopper img.blue-bird {
-  position: relative;
-  left: 38px; }
-
-/*setting up some categories*/
-[class^="category-"], [class*=" category-"] {
-  display: inline-block;
-  float: left;
-  height: 24px;
-  margin-right: 5px;
-  position: relative;
-  top: -3px;
-  width: 24px; }
-
 .category-whats-new {
   background: url("http://d3g8ukm9kroesz.cloudfront.net/2015/01/06/15/09/41/900/oxford_owl_sprite.svg") no-repeat scroll 0 0 transparent; }
 
@@ -7550,8 +7186,24 @@ p {
   font-size: 1.1em;
   line-height: 1.5; }
 
+.kids-barn {
+  font-family: kremlin-pro-web-semi-exp, cursive; }
+
+.breadcrumb {
+  background-color: white;
+  margin: 0 25px;
+  padding: 8px 15px; }
+  .breadcrumb ul {
+    margin: 0;
+    padding: 0; }
+    .breadcrumb ul li {
+      display: inline; }
+
 a {
   color: #CF1C6D; }
+
+a:hover {
+  color: #8c134a; }
 
 p a {
   border-bottom: 1px solid #dadada; }
@@ -7702,7 +7354,7 @@ body.page_liam #search {
     background: url("http://d3g8ukm9kroesz.cloudfront.net/2015/01/06/15/09/41/900/oxford_owl_sprite.svg") no-repeat scroll -46px -93px white;
     border: 2px solid #575756;
     border-radius: 20px;
-    left: 362px;
+    left: 388px;
     padding-left: 26px;
     top: -5px;
     width: 146px;
@@ -7739,7 +7391,7 @@ body.page_liam #search #submit-book-search {
   color: white;
   cursor: pointer;
   height: 33px;
-  left: 552px;
+  left: 582px;
   position: absolute;
   text-indent: -16px;
   top: -5px;
@@ -7860,9 +7512,6 @@ body.page_liam ul.dropdown-menu .current-menu-item a:active {
   /*pinkcolor*/
   color: white; }
 
-body.page_liam .menu-item.kids-barn {
-  font-family: "kremlin-pro-web-semi-exp"; }
-
 body.page_liam ul.dropdown-menu {
   background-color: transparent; }
 
@@ -7872,13 +7521,6 @@ section.content {
 
 .article-content {
   padding: 0 20px; }
-
-.breadcrumb {
-  background-color: white;
-  border-radius: 4px;
-  list-style: outside none none;
-  margin: 0 20px;
-  padding: 8px 15px; }
 
 .content-intro {
   background-color: #EFEFF0;
@@ -7894,6 +7536,371 @@ section.content {
 
 section.content {
   height: 800px; }
+
+/*liams css*/
+/*setting up fonts*/
+body.home_liam,
+body.page_liam {
+  color: #575756; }
+
+.btn-gel,
+.lola,
+.box,
+.carousel-ebook-heading {
+  font-family: fs-lola-primary-web, sans-serif !important; }
+
+p {
+  line-height: 1.5; }
+
+.pink {
+  color: #cf1c6d; }
+
+.green {
+  color: #B1BB15; }
+
+.blue {
+  color: #4ECADA; }
+
+.orange {
+  color: #F29100; }
+
+body.for-home-page.home_liam,
+body.page_liam {
+  background-image: url(http://d3g8ukm9kroesz.cloudfront.net/2014/11/28/14/16/07/939/Clouds.png);
+  background-position: 0px 0px;
+  background-color: #8bd7fc;
+  animation: animatedBackground 160s linear infinite; }
+
+body.for-home-page.home_liam section#main {
+  width: auto;
+  width: 1024px;
+  box-shadow: none; }
+
+body.for-home-page.home_liam #main {
+  background: none repeat scroll 0 0 white;
+  /*overides background image logo*/ }
+
+body.for-home-page.home_liam section#top-links,
+body.page_liam section#top-links {
+  padding: 0px;
+  min-height: 48px !important;
+  background-color: transparent;
+  border-radius: 0px;
+  float: right;
+  position: relative;
+  width: 260px; }
+
+body.for-home-page.home_liam #top-links a.register,
+body.page_liam #top-links a.register,
+body.for-home-page.home_liam #top-links a.login,
+body.page_liam #top-links a.login,
+body.page_liam #top-links a,
+body.for-home-page.home_liam #top-links a {
+  display: block;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 0;
+  float: right;
+  margin: 0;
+  font-weight: normal;
+  padding: 14px 20px;
+  position: relative;
+  top: -15px;
+  /*bit of a hack as I don't have access to the front end code*/
+  font-size: 17px; }
+
+body.for-home-page.home_liam #top-links a.register:hover,
+body.page_liam #top-links a.register:hover,
+body.for-home-page.home_liam #top-links a.login:hover,
+body.page_liam #top-links a.login:hover,
+body.page_liam #top-links a:hover,
+body.for-home-page.home_liam #top-links a:hover {
+  background-color: #cf1c6d;
+  /*pinkcolor*/ }
+
+section#top-links span {
+  top: 14px;
+  /*bit of a hack as I don't have access to the front end code*/
+  position: relative; }
+
+section#top-links span span {
+  top: 0;
+  position: relative;
+  margin-right: 10px; }
+
+body.page_liam #content {
+  padding: 0 30px; }
+
+body.for-home-page.home_liam section#login-form .login-title {
+  background-color: #575756;
+  /*greycolor*/ }
+
+body.for-home-page.home_liam .top-links-inner,
+body.page_liam .top-links-inner {
+  float: right;
+  margin: 0;
+  position: relative; }
+
+.logo {
+  padding: 10px 40px;
+  position: relative;
+  width: 200px;
+  float: left; }
+
+body.for-home-page.home_liam section#create-your-class-login {
+  position: relative;
+  width: 197px;
+  display: inline;
+  float: right;
+  margin: 8px 0 0 0; }
+
+body.home_liam .side-bar {
+  margin-left: 17px;
+  width: 194px; }
+
+body.page_liam section#create-your-class-login {
+  position: relative;
+  width: 197px;
+  display: inline;
+  float: left;
+  margin: 8px 0 0 0;
+  right: auto;
+  top: 0;
+  left: 366px; }
+
+#top-links a:hover {
+  background-color: #cf1c6d;
+  color: white; }
+
+.mission-owl {
+  height: 245px;
+  left: 78px;
+  position: absolute;
+  top: 64px;
+  width: 235px;
+  z-index: 9999; }
+
+.mission-owl > img {
+  width: 120%; }
+
+.header-bar {
+  background-color: #64686C;
+  height: 48px; }
+
+body.for-home-page.home_liam .top-links-inner {
+  margin: 0;
+  /*overides margin top*/ }
+
+.signed-in.top-links-inner > br {
+  display: none; }
+
+body.for-home-page section#content {
+  padding: 0 0 50px 0; }
+
+.center-content {
+  background-color: #cfd725;
+  height: 579px;
+  padding: 80px 40px; }
+
+section#content {
+  padding-bottom: 0px !important; }
+
+.box {
+  background-color: white;
+  color: #575756;
+  /*greycolor*/ }
+
+.box:hover {
+  background-color: #cf1c6d;
+  /*pinkcolor*/
+  color: white; }
+
+.box:hover .pink,
+.box:hover .blue,
+.box:hover .green,
+.box:hover .orange {
+  color: white; }
+
+.span6.box {
+  height: 250px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding: 0px;
+  width: 46.936%;
+  margin-right: 3%;
+  z-index: 1;
+  position: relative; }
+
+.box .box-image {
+  overflow: hidden; }
+
+.box .box-image > img {
+  position: relative; }
+
+.span6.box img {
+  max-width: none; }
+
+.box .text {
+  padding: 15px; }
+
+.box h2 {
+  font-size: 1.3em;
+  line-height: 1.2; }
+
+.box p {
+  line-height: 1.3; }
+
+.news-nav {
+  position: relative;
+  width: 96%; }
+
+body.home_liam section#create-your-class-login {
+  border-radius: 10px;
+  margin-top: 12px;
+  position: relative;
+  right: 0px;
+  top: 0px; }
+
+.button-container {
+  float: right;
+  width: 100%;
+  margin-bottom: 10px; }
+
+.btn-gel {
+  color: white;
+  border-radius: 30px;
+  box-shadow: 0 0 0;
+  border: 3px solid;
+  background: transparent;
+  background-color: #575756;
+  /*greycolor*/
+  text-shadow: none;
+  font-size: 1.3em;
+  padding: 10px;
+  font-weight: normal;
+  width: 90%; }
+
+.btn-gel:hover {
+  background-color: #cf1c6d;
+  color: white; }
+
+.mission-text {
+  max-width: 426px;
+  position: relative;
+  margin-top: 51px; }
+
+.mission-text p {
+  font-size: 1.5em;
+  line-height: 1.5;
+  color: #575756;
+  /*greycolor*/ }
+
+body.home_liam #footer {
+  height: auto; }
+
+#warning {
+  background: none repeat scroll 0 0 white;
+  padding: 10px;
+  position: fixed;
+  top: 50%;
+  transform: rotate(90deg); }
+
+/*page css*/
+.dropdown-menu > li {
+  float: left;
+  position: relative; }
+
+.dropdown-menu > li > a {
+  display: inline;
+  padding: 0px; }
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+  background-color: #cf1c6d;
+  /*pinkcolor*/
+  color: white;
+  background-image: none; }
+
+.dropdown-menu > li:first-child {
+  margin-left: 28px; }
+
+/*SVG icons*/
+.test {
+  background: url("http://d3g8ukm9kroesz.cloudfront.net/2014/12/09/18/02/49/26/oxford_owl_sprite.svg");
+  height: 24px;
+  width: 24px;
+  display: inline-block; }
+
+.checkbox {
+  background-position: -0px -0px; }
+
+.maths-button {
+  position: absolute;
+  right: 0;
+  z-index: 2; }
+
+.btn.btn-maths.pull-right {
+  background: none repeat scroll 0 0 #ccc;
+  border: medium none;
+  border-radius: 0;
+  box-shadow: none;
+  right: 0;
+  text-shadow: none;
+  width: 188px;
+  padding: 14px;
+  font-family: fs-lola-primary-web, sans-serif;
+  font-size: 1em; }
+
+.btn.btn-maths.pull-right:after {
+  background: url("http://d3g8ukm9kroesz.cloudfront.net/2015/01/06/15/09/41/900/oxford_owl_sprite.svg") no-repeat scroll 0 -145px transparent;
+  content: "";
+  height: 24px;
+  position: absolute;
+  width: 24px; }
+
+.btn.btn-maths.pull-right:hover {
+  background: none repeat scroll 0 0 #cf1c6d;
+  color: white; }
+
+.btn.btn-maths.pull-right:hover:after {
+  background: url("http://d3g8ukm9kroesz.cloudfront.net/2015/01/06/15/09/41/900/oxford_owl_sprite.svg") no-repeat scroll 0 -121px transparent; }
+
+#css-editor {
+  z-index: 999999; }
+
+/*little birdies*/
+img.small-bird,
+img.orange-bird {
+  position: absolute; }
+
+.small-bird {
+  left: 303px;
+  top: 67px; }
+
+.orange-bird {
+  right: 31px;
+  top: 106px; }
+
+.bird-chopper {
+  width: 108px;
+  position: absolute;
+  top: 522px;
+  right: 0px;
+  overflow: hidden; }
+
+.bird-chopper img.blue-bird {
+  position: relative;
+  left: 38px; }
+
+/*setting up some categories*/
+[class^="category-"], [class*=" category-"] {
+  display: inline-block;
+  float: left;
+  height: 24px;
+  margin-right: 5px;
+  position: relative;
+  top: -3px;
+  width: 24px; }
 
 #main #gel-carousel li.take-me-to-ebooks {
   background-color: #5ba503; }

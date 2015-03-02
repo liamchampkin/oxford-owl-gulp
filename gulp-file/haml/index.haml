@@ -1,22 +1,22 @@
 !!!
-%html 
-  = Haml::Engine.new(File.read('haml/partials/_head.html.haml')).render
+%html
+  = Haml::Engine.new(File.read('haml/partials/_head.html.haml')).render 
   %body.for-home-page.home_liam
-  %section#main{"data-snippet" => "home"}
-    = Haml::Engine.new(File.read('haml/partials/_header-bar.html.haml')).render
+  %section#main{"data-snippet" => "home"} 
+    = Haml::Engine.new(File.read('haml/partials/_header-bar.html.haml')).render 
     %section#header
-      .row-fluid
+      .row-fluid 
         .span5
           .mission-owl
             %img{:alt => "Oxford Owl", :src => "/images/big_owl.svg"}/
           %img.small-bird{:alt => "", :src => "/images/little_birdies_02.svg"}/
-        .span7 
+        .span7
           .mission-text
             %section#info.lola 
               %p
                 Oxford Owl is packed with expert advice, top tips and activity ideas so you can help your child with reading and maths.
           %img.orange-bird{:alt => "Bird", :src => "/images/little_birdies_01.svg"}/
-    %section#content
+    %section#content 
       .row-fluid
         .span12
 

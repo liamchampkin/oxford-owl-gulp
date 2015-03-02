@@ -11,8 +11,11 @@ $blue: 													#71C3CD;
 $sky-blue: 											#8BD7FC;
 $dark-green: 										#5BA503;
 
+$pink-darken:										darken($pink, 15%);
+
 //fonts
 $font-stack: 										fs-lola-primary-web, sans-serif;
+$handwriting-font:							kremlin-pro-web-semi-exp, cursive;
 
 $h1-size: 											25px;
 $h2-size: 											19px;
